@@ -1,13 +1,13 @@
 # code your #position_taken? method here!
 
-def position_taken?(board, location)
-  board[location] != " " && board[location] != ""
+def position_taken?(board, index)
+  board[index] != " " && board[index] != ""
 end
 
 
 # def position_taken?(board, index)
-# 
-#   if board[0] == "" 
+#
+#   if board[0] == ""
 #    false
 #   elsif board[0] == nil
 #     false
